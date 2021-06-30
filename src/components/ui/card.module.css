@@ -1,0 +1,16 @@
+.card{
+    background-color: rgba(0, 0, 0, 0.952);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.815);
+    display:block;
+    margin: 0 auto;
+    width: 50%;
+
+    color: white;
+
+
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all .5s;
+}

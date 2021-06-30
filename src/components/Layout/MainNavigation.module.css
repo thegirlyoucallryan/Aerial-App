@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+
+.header {
+    width: 80%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 0 10%;
+  }
+  
+  .logo {
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Lobster';
+    letter-spacing: 2px;
+    background-image: linear-gradient(#c37593, rgb(219, 216, 216));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin-left: 3rem;
+  }
+  
+  .header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #f5c0d4;
+  }
+  
+  .header a:hover,
+  .header a:active,
+  .header a.active {
+    color: white;
+  }
+  
+  .badge {
+    background-color: #af5b7b;
+    color: white;
+    border-radius: 12px;
+    padding: 0 1rem;
+    margin-left: 0.5rem;
+  }

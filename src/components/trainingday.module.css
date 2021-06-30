@@ -1,0 +1,37 @@
+
+
+.trainingday{
+   
+    text-align: center;
+    width: 80%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(64,59,59,1) 34%, rgba(47,38,38,1) 86%, rgba(0,0,0,1) 100%);
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 4em;
+    height: 50vh;
+    border: 5px solid black;
+    box-shadow: 0 2px 1rem 1px black;
+}
+
+
+.h1{
+    font-family: 'Lobster';
+    text-align: left;
+    margin: 10px -25px;
+    letter-spacing: 1px;
+    color: #EAE8E1;
+    text-shadow: 3px 2px 8px rgba(0,0,0,1);
+    position: relative;
+    z-index: 100;
+    
+}
+
+.list{
+    list-style-type:none ;
+    color: rgb(172, 150, 182);
+    font-size: 1.5em;
+    padding: .3em;
+    letter-spacing: 1px;
+}

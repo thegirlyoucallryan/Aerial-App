@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+ 
+.background{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  background-attachment: fixed;
+  
+    
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.name{
+    font-family: 'Lobster';
+    font-size:17px;
+    letter-spacing: 2px;
+    text-align: center;
+    z-index: 4;
+    margin-top: 5rem;
+    left: 13rem;
+    position: absolute;
+    
+}
+
+.logo{
+    width: 11rem;
+    height: 12.5rem;
+    margin-top: .5rem;
+}
+
+
+
+.logo-box{
+    width: 10%;
+    display: block;
+    margin-left: 5rem;
+    margin-top: 2%;
+    text-align: center;
+    float: left;
+      
+    border: 22px solid black;
+    
+    
+}
+
+
+.splash-screen:hover{
+    cursor: pointer;
+    transform:  scale(1.1);
+    transition: all 1s;
+  
+    /* box-shadow: 1rem 2rem 3rem black; */
+    
+
 }
